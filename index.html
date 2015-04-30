@@ -53,7 +53,8 @@
       </div>
       <div class="ss-top-of-page">
         <div class="ss-form-heading">
-          <h1 class="ss-form-title" dir="ltr">社團法人台灣實踐民權發展社（割闌尾計畫）入社申請表</h1>
+          <img src="Artboard%201.png" alt="" style="display: inline;"/>
+          <h1 class="ss-form-title" dir="ltr" style="display: inline-block;"><div style="width: 80px;height: 40px;display: inline-block;">社團法人</div>台灣實踐民權發展社（割闌尾計畫）入社申請表</h1>
           <div class="ss-required-asterisk" aria-hidden="true"></div>
         </div>
       </div>
@@ -185,8 +186,44 @@
                 </div>
               </div>
             </div>
+            <style>
+              input[type=checkbox].css-checkbox {
+                position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+              }
+
+              input[type=checkbox].css-checkbox + label.css-label {
+                padding-left:27px;
+                height:22px;
+                display:inline-block;
+                line-height:22px;
+                background-repeat:no-repeat;
+                background-position: 0 0;
+                font-size:22px;
+                vertical-align:middle;
+                cursor:pointer;
+
+              }
+
+              .checkbox label:before {
+                border-radius: 6px;
+              }
+              input[type=checkbox].css-checkbox:checked + label.css-label {
+                background-position: 0 -22px;
+
+              }
+              label.css-label {
+                background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_5f214b3863887e4bfa23c9dbc34339ae.png);
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+              }
+            </style>
             <form action="">
-              <input type="checkbox" name="agree" value="agree">本人已詳細閱讀瞭解下列社團法人台灣實踐民權發展社（割闌尾計畫）入社相關事項<br>並同意協會於上述個資使用目的及範圍內蒐集本人所提供之相關個人資料。<br>
+              <input type="checkbox" name="agree" id="agree" value="agree" class="css-checkbox"><label for="agree" class="css-label">本人已詳細閱讀瞭解下列社團法人台灣實踐民權發展社（割闌尾計畫）入社相關事項<br>並同意協會於上述個資使用目的及範圍內蒐集本人所提供之相關個人資料。<br></label>
+              <!--<input type="checkbox" name="checkboxG4" id="checkboxG4" class="css-checkbox" /><label for="checkboxG4" class="css-label">Option 1</label>-->
               <input type="submit" value="送出" style="height: 50px;width: 500px;background-color: #4cade0;border: 0px;border-radius: 2px;color: white;font-size: 20px;margin-left: 250px;margin-right: auto">
             </form>
             <!--<div class="ss-form-question errorbox-good" role="listitem">-->
