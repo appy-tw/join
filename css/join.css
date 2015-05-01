@@ -1,0 +1,151 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue', Helvetica, 'Nimbus Sans L', Arial, 'Liberation Sans', 'Hiragino Sans GB', 'Noto Sans', 'Microsoft JhengHei', 'Microsoft YaHei', 'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti', SimHei, 'WenQuanYi Zen Hei Sharp', sans-serif, serif ,cursive, fantasy,monospace;
+	border-top:50px solid #2D2D2D;
+	background-color: #F1F1F1;
+
+}
+#top-divider {
+	height: 5px;
+	background-color: #8AC6D1;
+}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f1f1f1;
+}
+
+#form-header {
+	font-weight: bolder;
+	font-size: 1.6em;
+	vertical-align: bottom;
+	text-align: left;
+}
+
+#form-header-image {
+	background-image: url("../Artboard_1.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 95px;
+	width: 2em;
+	padding-left: 100px;
+	vertical-align: middle;
+}
+
+#form-header-title {
+	display: inline-block;
+}
+
+h2 {
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.section-text {
+	margin-bottom: 1em;
+}
+
+.section-text table {
+	background-color: #ECEBEC;
+	border-collapse: separate;
+	width: 100%;
+	border-spacing: 0px;
+	border-top:1px solid #c9c9c9;
+	border-bottom:1px solid #fff;
+}
+
+.section-text tr {
+	border-top:1px solid #c9c9c9;
+	border-bottom:1px solid #fff; 
+	color: #5f8ad1;
+	padding-top:  0.5em;
+}
+
+.section-text th {
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #c9c9c9;
+	border-right:none;
+	border-left: none;
+	font-weight: bold;
+	height: 3em;
+}
+
+.section-text td {
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #c9c9c9;
+	border-right:none;
+	border-left: none;
+	text-align: center;
+	height: 3em;
+}
+
+input[type=checkbox].css-checkbox {
+position:absolute; z-index:-1000; left:-1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height:1px;
+	width:1px;
+	margin:-1px;
+	padding:0;
+	border:0;
+}
+
+input[type=checkbox].css-checkbox, label.css-label {
+	padding-left:27px;
+	height:22px;
+	display:inline-block;
+	line-height:22px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size: 1.2em;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -22px;
+}
+
+label.css-label {
+	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_5f214b3863887e4bfa23c9dbc34339ae.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	letter-spacing: 2px;
+}
+
+
+#footer {
+	width: 100%;
+	height: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: #BCBCBC;
+	background-color: #2e2e2e;
+	vertical-align:middle;
+	text-align: center;
+}
+
+@media (min-width: 1200px) {
+	#container {
+		width: 80%;
+		padding: 2em 1em 2em 1em;
+	}
+}
+
+@media (min-width: 1600px) {
+	#container {
+		width: 55%;
+		padding: 2em 0em 2em 0em;
+	}
+}
