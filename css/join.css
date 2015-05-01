@@ -26,7 +26,7 @@ body {
 }
 
 #form-header-image {
-	background-image: url("../Artboard_1.png");
+	background-image: url("../img/app_icon.png");
 	background-repeat: no-repeat;
 	display: inline-block;
 	height: 95px;
@@ -41,6 +41,7 @@ body {
 #form-header-title {
 	display: inline-block;
 	font-size: 1.6em;
+  font-family: PMingLiU, DFKai-sb, Arial, '新細明體', sans-serif;font-size: 42px;
 }
 
 h2 {
@@ -152,4 +153,113 @@ label.css-label {
 		width: 55%;
 		padding: 2em 0em 2em 0em;
 	}
+}
+
+hr {
+  border-top-color: #d6d6d6;
+  border-bottom-color: #ececec;
+  border-style: solid;
+  border-left: 0px;
+}
+
+h2 {
+  /*font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;*/
+  /*font-family: "Bookman", Georgia, "Times New Roman", serif;*/
+  /*font-family: "Helvetic Neue", Helvetica, Arial;*/
+  /*font-family: "Noto Sans", sans-serif;*/
+  /*font-family: 'Helvetica Neue', Helvetica, 'Nimbus Sans L', Arial, 'Liberation Sans', 'Hiragino Sans GB', 'Noto Sans', 'Microsoft JhengHei', 'Microsoft YaHei', 'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti', SimHei, 'WenQuanYi Zen Hei Sharp', sans-serif, serif , cursive, fantasy, monospace;*/
+  /*font-family: "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue";*/
+  /*, "Nimbus Sans L"", Arial, "Liberation Sans";*/
+  /*, 'Hiragino Sans GB', 'Noto Sans', 'Microsoft JhengHei', 'Microsoft YaHei', 'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti', SimHei, 'WenQuanYi Zen Hei Sharp', sans-serif, serif , cursive, fantasy, monospace;*/
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, 'Microsoft YaHei', 'Wenquanyi Micro Hei', 'ST Heiti', Arial, sans-serif;
+}
+
+ol.custom {
+  list-style-type: none;
+  padding-left: 0px;
+}
+ol.custom > li {
+  counter-increment: customlistcounter;
+}
+ol.custom > li:before {
+  display: inline-block;
+  content: "( "counter(customlistcounter) " )";
+  width: 2em;
+  /*margin-left: -2em;*/
+}
+
+
+tr td {
+  border-top:2px solid #c9c9c9;border-bottom:3px solid #fff;
+}
+table {
+  background-color: #ECEBEC;
+  border-collapse: separate;
+  width: 100%;
+  border-spacing: 0px;
+}
+th {
+  border-top: 1px solid #ffffff;border-bottom:1px solid #c9c9c9;border-right:none;border-left: none;
+}
+tr {
+  border-top:1px solid #c9c9c9;border-bottom:1px solid #fff; color: #5f8ad1
+}
+
+input[type=checkbox].css-checkbox {
+  position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+  display:inline-block;
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  vertical-align:middle;
+  cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+  background-position: 0 -22px;
+
+}
+label.css-label {
+  background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_5f214b3863887e4bfa23c9dbc34339ae.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input[type=checkbox].css-checkbox {
+  position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+.apply-list-goods {
+  background-color: #ffffff;border-radius: 15px;height: 200px;padding: 3px 8px 3px 8px;margin-right: 8px;
+  font-family: BellMT, "Times New Roman", Times, serif ;
+}
+
+.text-container {
+  width: 90%; margin-left: auto;margin-right: auto;
+}
+
+.footerContent {
+  width: 1000px;margin-left: auto;margin-right: auto;display:table;width: inherit;height: inherit;
+}
+
+footer {
+  background-color: #2e2e2e; color: #BCBCBC; height: 100px;vertical-align:middle;text-align: center
+}
+
+p.foot-p {
+  vertical-align:middle;display:table-cell;vertical-align: middle;
+}
+
+.submit-button-div {
+  text-align: center;
+}
+
+input.submit {
+  height: 50px;width: 500px;background-color: #4cade0;border: 0px;border-radius: 2px;color: white;font-size: 20px;
 }
