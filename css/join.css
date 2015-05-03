@@ -41,6 +41,13 @@ body {
     font-size: 40px;
     margin-left: 10px;
   }
+  div.form-header-title {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 600px) {
   .form-header-appy-black {
