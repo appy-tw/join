@@ -18,7 +18,8 @@ body {
 	background-color: #f1f1f1;
 }
 
-@media screen and (min-width: 600px) {
+/*head*/
+@media screen and (min-width: 1240px) {
   .form-header-appy-black {
     float: left;
     width: 100px;
@@ -49,7 +50,39 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 950px) and (max-width: 1240px) {
+  .form-header-appy-black {
+    float: left;
+    width: 80px;
+  }
+  div.form-header-artificial-person{
+    width: 40px;
+    float: left;
+    margin-left: 10px;
+    height: 80px;
+
+  }
+  p.form-header-artificial-person {
+    line-height: 15px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
+  div.span {
+    display: inline-block;
+    height: 80px;
+    /*line-height: 80px;*/
+    margin-left: 10px;
+  }
+  div.form-header-title {
+    display: inline-block;
+    height: 80px;
+    line-height: 90px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 949px) {
   .form-header-appy-black {
     display: block;
     margin-left: auto;
@@ -57,8 +90,6 @@ body {
     width: 100px;
     margin-top: 20px;
   }
-
-
   div.form-header-artificial-person{
     width: 24px;
     float: left;
@@ -167,7 +198,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 }
 
 label.css-label {
-	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_5f214b3863887e4bfa23c9dbc34339ae.png);
+  background-image:url('../img/checkbox.png');
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -191,18 +222,12 @@ label.css-label {
 	text-align: center;
 }
 
-@media (min-width: 1200px) {
-	#container {
-		width: 80%;
-		padding: 2em 1em 2em 1em;
-	}
-}
 
-@media (min-width: 1600px) {
-	#container {
-		width: 55%;
-		padding: 2em 0em 2em 0em;
-	}
+@media (min-width: 600px) {
+  #container {
+    width: 80%;
+    padding: 2em 1em 2em 1em;
+  }
 }
 
 hr {
@@ -272,7 +297,6 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 
 }
 label.css-label {
-  /*background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_5f214b3863887e4bfa23c9dbc34339ae.png);*/
   background-image:url('../img/checkbox.png');
   background-size: 22px 44px;
   -webkit-touch-callout: none;
@@ -331,10 +355,7 @@ input[type="submit"]:hover{
   }
 }
 
-
-
-
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1234px) {
   .span1-2 {
     /*border-radius: 20px;background-color: #70C3CF;border: 1px solid #fff;padding: 10px 35px 10px 40px;*/
     border-radius: 20px;background-color: #77CEDB;border: 1px solid #fff;padding: 10px 30px 10px 0px;
@@ -342,14 +363,14 @@ input[type="submit"]:hover{
   .span3-4 {
     border-radius: 20px;background-color: #40909B;border: 1px solid #fff;padding: 10px 50px 10px 0px;
   }
-  #sapn-1 {
-    border-radius: 20px;background-color: #8cd8e4;border: 1px solid #fff;padding: 10px 125px 10px 40px;margin: 0px 50px 0px 90px;
+  /*#sapn-1 {*/
+    /*border-radius: 20px;background-color: #8cd8e4;border: 1px solid #fff;padding: 10px 125px 10px 40px;margin: 0px 50px 0px 90px;*/
     /*border-radius: 20px;background-color: #60B1BC;  border: 1px solid #fff;padding: 10px 30px 10px 40px;margin: 0px 50px 0px 0px;*/
-  }
+  /*}*/
   #span-3 {
     border-radius: 20px;background-color: #60B1BC;border: 1px solid #fff;padding: 10px 30px 10px 40px;margin: 0px 50px 0px 0px;
   }
-  #span-3-new {
+  #span-1 {
     border-radius: 20px;background-color: #8CD9E4;border: 1px solid #fff;padding: 10px 130px 10px 40px;margin: 0px 50px 0px 0px;
   }
   .div-1-2 {
@@ -359,48 +380,70 @@ input[type="submit"]:hover{
     margin: 40px 20px 20px 20px;
   }
 }
-@media screen and (max-width: 600px) {
-  #span-3-new {
-    border-radius: 20px;
+@media screen and (max-width: 1234px) {
+  #span-1 {
     background-color: #8CD9E4;
-    border: 1px solid #fff;
-    padding: 5px 5px 5px 5px;
-    display: block;
-    font-size: 10px;
   }
 
   #span-2 {
-    border-radius: 20px;
     background-color: #77CEDB;
-    border: 1px solid #fff;
-    padding: 5px 5px 5px 5px;
-    display: block;
-    font-size: 10px;
   }
 
   #span-3 {
-    border-radius: 20px;
     background-color: #60B1BC;
-    border: 1px solid #fff;
-    padding: 5px 5px 5px 5px;
-    display: block;
-    font-size: 10px;
   }
 
   #span-4 {
-    border-radius: 20px;
     background-color: #4295A1;
+  }
+}
+@media screen and (min-width: 740px) and (max-width: 1234px) {
+  .appy-list-span {
+    border-radius: 20px;
     border: 1px solid #fff;
     padding: 5px 5px 5px 5px;
     display: block;
-    font-size: 10px;
+    font-size: 20px;
+    width: 90%;
   }
-
   .div-1-2 {
     margin: 0px 20px 20px 20px;
   }
 
   .div-3-4 {
-    margin: -40px 20px 20px 20px;
+    margin: -20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 740px) {
+  .appy-list-span {
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    font-size: 15px;
+    width: 90%;
+  }
+  .div-1-2 {
+    margin: 0px 20px 20px 20px;
+  }
+
+  .div-3-4 {
+    margin: -20px 20px 20px 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .appy-list-span {
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    font-size: 10px;
+  }
+  .div-1-2 {
+    margin: 0px 20px 20px 20px;
+  }
+
+  .div-3-4 {
+    margin: -20px 20px 20px 20px;
   }
 }
