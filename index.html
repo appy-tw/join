@@ -16,9 +16,12 @@
 <body>
 <div id="top-divider"></div>
 <div id="container">
-	<div id="form-header">
-		<div id="form-header-image">社團法人</div>
-		<div id="form-header-title">台灣實踐民權發展社（割闌尾計畫）入社申請表</div>
+	<div class="form-header">
+    <img src="/img/appy_black.svg" onerror="this.src='/img/appy_black.png';this.onerror=null;" class="form-header-appy-black">
+    <!--<div class="">-->
+      <div class="form-header-artificial-person"><p class="form-header-artificial-person">社團法人</p></div>
+      <div class="form-header-title">台灣實踐民權發展社<span class="form-header-title-appy">（割闌尾計畫）</span><span>入社申請表</span></div>
+    <!--</div>-->
 	</div>
       <hr />
         <div class="text-container">
@@ -116,8 +119,10 @@
           </div>
           <h2>申請入社流程</h2>
           <div>
-            <div style="margin: 20px 20px 20px 20px;"><span style="border-radius: 20px;background-color: #70C3CF;border: 1px solid #fff;padding: 10px 35px 10px 0px;"><span style="border-radius: 20px;background-color: #8cd8e4;border: 1px solid #fff;padding: 10px 125px 10px 40px;margin: 0px 50px 0px 0px;"><span class="apply-list-goods">1</span>填妥申請表後，向本社提出申請</span><span class="apply-list-goods">2</span>經理事會審查申請人資格，通知申請人結果</span><br></div>
-            <div style="margin: 40px 20px 20px 20px;"><span style="border-radius: 20px;background-color: #40909B;border: 1px solid #fff;padding: 10px 50px 10px 0px;"><span style="border-radius: 20px;background-color: #60B1BC;border: 1px solid #fff;padding: 10px 30px 10px 40px;margin: 0px 50px 0px 0px;"><span class="apply-list-goods">3</span>經審查通過者，繳交當年度社費成為正式社員</span><span class="apply-list-goods">4</span>審查時間為每個月例行召開理監事會決議</span><br></div>
+
+            <div class="div-1-2" style=""><span class="span1-2" style=""><span id="span-3-new" style=""><span class="apply-list-goods">1</span>填妥申請表後，向本社提出申請</span><span id="span-2"><span class="apply-list-goods">2</span>經理事會審查申請人資格，通知申請人結果</span></span><br></div>
+            <!--<div class="div-1-2" style=""><span class="span1-2" style=""><span id="span-3" style=""><span class="apply-list-goods">1</span>經審查通過者，繳交當年度社費成為正式社員</span><span id="span-2"><span class="apply-list-goods">2</span>審查時間為每個月例行召開理監事會決議</span></span><br></div>-->
+            <div class="div-3-4" style=""><span class="span3-4" style=""><span id="span-3" style=""><span class="apply-list-goods">3</span>經審查通過者，繳交當年度社費成為正式社員</span><span id="span-4"><span class="apply-list-goods">4</span>審查時間為每個月例行召開理監事會決議</span></span><br></div>
           </div>
           <h2>社員個資保護辦法及使用同意書</h2>
           <ol>
@@ -145,7 +150,7 @@
             <input type="checkbox" name="agree" id="agree" value="agree" class="css-checkbox"><label for="agree" class="css-label">本人已詳細閱讀瞭解下列<strong style="color: #61b5e2;text-decoration: underline">社團法人台灣實踐民權發展社（割闌尾計畫）</strong>入社相關事項、並同意協會於上述個資使用目的及範圍內蒐集本人所提供之相關個人資料。</label>
             <br><br><br><br>
             <div class="submit-button-div">
-              <input type="submit" value="送出" class="submit">
+              <input type="submit" value="送出" class="submit" style="">
             </div>
           </form>
         </div>
