@@ -447,3 +447,9 @@ input[type="submit"]:hover{
     margin: -20px 20px 20px 20px;
   }
 }
+
+.form-header-title-join{
+  display:block;
+  font-size: 30px;
+  text-align: left; 
+}
